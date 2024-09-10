@@ -30,12 +30,13 @@ body{
     position: absolute;
     top: 60px;
     left: 1370px;
-    color: #ffffff;
+    color: #de6868;
     cursor: pointer;
     font-size: 30px;
 }
 
- 
+
+
 
 .TITLE{
     color: rgb(255, 255, 255);
@@ -302,7 +303,7 @@ body{
 .title_previous{
     position: absolute;
     top: 30px;
-    left: 190px;
+    left: 240px;
 }
  
 
@@ -310,7 +311,7 @@ body{
 .title_next{
     position: absolute;
     top: 30px;
-    left: 220px;
+    left: 210px;
 }
 
 
@@ -358,31 +359,31 @@ body{
 #PMondayImg{
     position: absolute;
     font-size:xx-large;
-    top: 150px;
+    top: 130px;
     left: 310px; 
 }
 #PTuesdayImg{
     position: absolute;
     font-size:xx-large;
-    top: 240px;
+    top: 220px;
     left: 310px;  
 }
 #PWednesdayImg{
     position: absolute;
     font-size:xx-large;
-    top: 330px;
+    top: 320px;
     left: 310px;  
 }
 #PThursdayImg{
     position: absolute;
     font-size:xx-large;
-    top: 420px;
+    top: 400px;
     left: 310px; 
 }
 #PFridayImg{
     position: absolute;
     font-size:xx-large;
-    top: 510px;
+    top: 490px;
     left: 310px; 
 }
 #PtempretureMonTxt{
@@ -405,7 +406,7 @@ body{
     position: absolute;
     font-size:x-large;
     top: 330px;
-    font-weight: 500;
+    font-weight: 1000;
     color: #000000;
     left: 490px; 
 }
@@ -413,7 +414,7 @@ body{
     position: absolute;
     font-size:x-large;
     top: 420px;
-    font-weight: 600;
+    font-weight: 1000;
     color: #000000;
     left: 490px; 
 }
@@ -470,31 +471,31 @@ body{
 #NMondayImg{
     position: absolute;
     font-size:xx-large;
-    top: 150px;
+    top: 130px;
     left: 310px; 
 }
 #NTuesdayImg{
     position: absolute;
     font-size:xx-large;
-    top: 240px;
+    top: 220px;
     left: 310px;  
 }
 #NWednesdayImg{
     position: absolute;
     font-size:xx-large;
-    top: 330px;
+    top: 310px;
     left: 310px;  
 }
 #NThursdayImg{
     position: absolute;
     font-size:x-large;
-    top: 420px;
+    top: 400px;
     left: 310px; 
 }
 #NFridayImg{
     position: absolute;
     font-size:xx-large;
-    top: 510px;
+    top: 490px;
     left: 310px; 
 }
 #NtempretureMonTxt{
@@ -517,7 +518,7 @@ body{
     position: absolute;
     font-size:x-large;
     top: 330px;
-    font-weight: 500;
+    font-weight: 1000;
     color: #000000;
     left: 490px; 
 }
@@ -525,7 +526,7 @@ body{
     position: absolute;
     font-size:x-large;
     top: 420px;
-    font-weight: 600;
+    font-weight: 1000;
     color: #000000;
     left: 490px; 
 }
@@ -533,7 +534,7 @@ body{
     position: absolute;
     font-size:x-large;
     top: 510px;
-    font-weight: 600;
+    font-weight: 1000;
     color: #000000;
     left: 490px; 
 }
