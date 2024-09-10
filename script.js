@@ -11,12 +11,8 @@ UVValue = document.getElementById("UVValue"),
 PValue = document.getElementById("PValue"),
 DValue = document.getElementById("DValue");
 
-// Forecast = document.getElementById(".Forecast ");
 
-
-
-
-
+//----------------------------- current weather -------------------------------
 
 WEATHER_API=`https://api.weatherapi.com/v1/current.json?key=0c4184ffbcad4aa7b3653754240909&q=`;
 function findUserLocation(){
@@ -36,11 +32,7 @@ function findUserLocation(){
         PValue.innerHTML = (data.current.pressure_in)+" hpa";
         
 
- 
-
-
-
- //----------------------past data--------------------------
+ //---------------------- past data / next data --------------------------
 
  let getDay = `${data.location.localtime}`;
  const setdate = new Date(getDay);
@@ -196,39 +188,5 @@ function findUserLocation(){
      });
  }
 
-
-
-
-
-
-
 } )
 }
-
-
-
-
-// WEATHER_API=`https://api.weatherapi.com/v1/history.json?key=0c4184ffbcad4aa7b3653754240909&q=`;
-// function findUserHistory(){
-//     fetch(WEATHER_API+ userHistory.value).then((res)=>res.json()).then((data)=>{
-//         console.log(data);
-   
-
-//         MondayValue.innerHTML = "";
-      
-
-//     } )
-// }
-
-
-// WEATHER_API_History=`https://api.weatherapi.com/v1/forecast.json?key=0c4184ffbcad4aa7b3653754240909&q=`;
-// function findUserHistory(){
-//     fetch(WEATHER_API_History+userHistory.value).then((res)=>res.json()).then((data)=>{
-//         console.log(data);
-   
-
-//         MondayValue.innerHTML = "";
-      
-
-//     } )
-// }

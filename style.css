@@ -12,6 +12,10 @@ body{
 }
 
 
+
+/* ============================== SEARCH ======================= */
+
+
 .input-group input{
     position: absolute;
     top: 50px;
@@ -36,7 +40,7 @@ body{
 }
 
 
-
+/* ============================== TITLE=======================  */
 
 .TITLE{
     color: rgb(255, 255, 255);
@@ -56,6 +60,8 @@ body{
 }
 
 
+
+/* ============================== TEMP CARD =======================  */
 
 .main div{
     position: absolute;
@@ -97,21 +103,15 @@ body{
  
 }
 
-
-
-/* .weatherIcon{
-    position: absolute;
-    font-size:xx-large;
-    top: 850px;
-    left: 310px; 
-} */
-
 .city{
     position: absolute;
     top: 360px;
     left: 280px;
 }
 
+
+
+/* ============================== DATE/TIME =======================  */
 
 .Date{
     position: absolute;
@@ -128,13 +128,23 @@ body{
     position: absolute;
 }
 
-
-.TDI{
+.TimeBar div{
     position: absolute;
-    top: 80px;
-    left: 230px;
+    top: 125px;
+    left:750PX;
+    height: 50px;
+    width: 700px;     
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #c0b5fa;
+    border-radius: 20px;
+    
 }
 
+
+/* ============================== SUMMARY =======================  */
 
 .SValue{
     position: absolute;
@@ -142,7 +152,23 @@ body{
     left: 250px;
 }
 
+.Summary div{
+    position: absolute;
+    top: 210px;
+    left:750PX;
+    height: 150px;
+    width: 700px;     
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    
+} 
 
+
+/* ============================== LITTLE CARD =======================  */
 
 .Humdit div{
     position: absolute;
@@ -237,36 +263,15 @@ body{
     
 }
 
-.TimeBar div{
+
+
+/* ============================== NEXT CARD ======================= */
+
+.title_next{
     position: absolute;
-    top: 125px;
-    left:750PX;
-    height: 50px;
-    width: 700px;     
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: #c0b5fa;
-    border-radius: 20px;
-    
+    top: 30px;
+    left: 240px;
 }
-
-.Summary div{
-    position: absolute;
-    top: 210px;
-    left:750PX;
-    height: 150px;
-    width: 700px;     
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: #ffffff;
-    border-radius: 20px;
-    
-} 
-
 
  .next div{
     position: absolute;
@@ -284,6 +289,130 @@ body{
     
 }
 
+
+
+#NheaderMon{
+    position: absolute;
+    top: 150px;
+    left: 60px;
+    font-weight: 1000;
+    font-size: x-large;
+    color: #000000;
+}
+#NheaderTue{
+    position: absolute;
+    top: 240px;
+    left: 60px;
+    font-weight: 600;
+    font-size: x-large;
+    color: #000000;
+}
+#NheaderWed{
+    position: absolute;
+    top: 330px;
+    font-weight: 600;
+    font-size: x-large;
+    color: #000000;
+    left: 60px;
+}
+#NheaderThu{
+    position: absolute;
+    top: 420px;
+    left: 60px;
+    font-weight: 600;
+    font-size: x-large;
+    color: #000000;
+}
+#NheaderFri{
+    position: absolute;
+    top: 510px;
+    left: 60px;
+    font-weight: 600;
+    font-size: x-large;
+    color: #000000;
+}
+#NMondayImg{
+    position: absolute;
+    font-size:xx-large;
+    top: 130px;
+    left: 310px; 
+}
+#NTuesdayImg{
+    position: absolute;
+    font-size:xx-large;
+    top: 220px;
+    left: 310px;  
+}
+#NWednesdayImg{
+    position: absolute;
+    font-size:xx-large;
+    top: 310px;
+    left: 310px;  
+}
+#NThursdayImg{
+    position: absolute;
+    font-size:x-large;
+    top: 400px;
+    left: 310px; 
+}
+#NFridayImg{
+    position: absolute;
+    font-size:xx-large;
+    top: 490px;
+    left: 310px; 
+}
+#NtempretureMonTxt{
+    position: absolute;
+    font-size:x-large;
+    top: 150px;
+    font-weight: 1000;
+    color: #000000;
+    left: 490px; 
+}
+#NtempretureTueTxt{
+    position: absolute;
+    font-size:x-large;
+    top: 240px;
+    font-weight: 1000;
+    color: #000000;
+    left: 490px; 
+}
+#NtempretureWedTxt{
+    position: absolute;
+    font-size:x-large;
+    top: 330px;
+    font-weight: 1000;
+    color: #000000;
+    left: 490px; 
+}
+#NtempretureThuTxt{
+    position: absolute;
+    font-size:x-large;
+    top: 420px;
+    font-weight: 1000;
+    color: #000000;
+    left: 490px; 
+}
+#NtempretureFriTxt{
+    position: absolute;
+    font-size:x-large;
+    top: 510px;
+    font-weight: 1000;
+    color: #000000;
+    left: 490px; 
+}
+ 
+
+
+/* ============================== PREVIOS CARD ======================= */
+
+.title_previous{
+    position: absolute;
+    top: 30px;
+    left: 210px;
+}
+
+
 .previous div{
     position: absolute;
     top: 770px;
@@ -298,22 +427,6 @@ body{
     border-radius: 20px;
     
 } 
-
-
-.title_previous{
-    position: absolute;
-    top: 30px;
-    left: 240px;
-}
- 
-
-
-.title_next{
-    position: absolute;
-    top: 30px;
-    left: 210px;
-}
-
 
 
 #PheaderMon{
@@ -428,114 +541,9 @@ body{
 }
  
 
-#NheaderMon{
-    position: absolute;
-    top: 150px;
-    left: 60px;
-    font-weight: 1000;
-    font-size: x-large;
-    color: #000000;
-}
-#NheaderTue{
-    position: absolute;
-    top: 240px;
-    left: 60px;
-    font-weight: 600;
-    font-size: x-large;
-    color: #000000;
-}
-#NheaderWed{
-    position: absolute;
-    top: 330px;
-    font-weight: 600;
-    font-size: x-large;
-    color: #000000;
-    left: 60px;
-}
-#NheaderThu{
-    position: absolute;
-    top: 420px;
-    left: 60px;
-    font-weight: 600;
-    font-size: x-large;
-    color: #000000;
-}
-#NheaderFri{
-    position: absolute;
-    top: 510px;
-    left: 60px;
-    font-weight: 600;
-    font-size: x-large;
-    color: #000000;
-}
-#NMondayImg{
-    position: absolute;
-    font-size:xx-large;
-    top: 130px;
-    left: 310px; 
-}
-#NTuesdayImg{
-    position: absolute;
-    font-size:xx-large;
-    top: 220px;
-    left: 310px;  
-}
-#NWednesdayImg{
-    position: absolute;
-    font-size:xx-large;
-    top: 310px;
-    left: 310px;  
-}
-#NThursdayImg{
-    position: absolute;
-    font-size:x-large;
-    top: 400px;
-    left: 310px; 
-}
-#NFridayImg{
-    position: absolute;
-    font-size:xx-large;
-    top: 490px;
-    left: 310px; 
-}
-#NtempretureMonTxt{
-    position: absolute;
-    font-size:x-large;
-    top: 150px;
-    font-weight: 1000;
-    color: #000000;
-    left: 490px; 
-}
-#NtempretureTueTxt{
-    position: absolute;
-    font-size:x-large;
-    top: 240px;
-    font-weight: 1000;
-    color: #000000;
-    left: 490px; 
-}
-#NtempretureWedTxt{
-    position: absolute;
-    font-size:x-large;
-    top: 330px;
-    font-weight: 1000;
-    color: #000000;
-    left: 490px; 
-}
-#NtempretureThuTxt{
-    position: absolute;
-    font-size:x-large;
-    top: 420px;
-    font-weight: 1000;
-    color: #000000;
-    left: 490px; 
-}
-#NtempretureFriTxt{
-    position: absolute;
-    font-size:x-large;
-    top: 510px;
-    font-weight: 1000;
-    color: #000000;
-    left: 490px; 
-}
  
+
+
+
+
+
