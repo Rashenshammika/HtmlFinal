@@ -1,0 +1,540 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+
+body{
+    background-image: url('img/sky.jpg');
+}
+
+
+.input-group input{
+    position: absolute;
+    top: 50px;
+    left: 760px;
+    background-color: #ffffff;
+    text-transform: capitalize;
+    padding: 1rem;
+    font-size: 15px;
+    border-radius: 6px;
+    width: 45%;
+    outline: none;
+    border: none;
+}
+
+.input-group .fa-search{
+    position: absolute;
+    top: 60px;
+    left: 1370px;
+    color: #000000;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+ 
+
+.TITLE{
+    color: rgb(255, 255, 255);
+    top: 5px;
+     left: 100px;
+    position: absolute;
+    font-size: 70PX;
+    
+}
+
+.TITLE2{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 100px;
+    font-size: 70PX;
+    left: 250PX;
+}
+
+
+
+.main div{
+    position: absolute;
+    background-repeat:  no-repeat !important;
+    top: 265px;
+    left: 50PX;
+    height: 440px;
+    width: 625px;  
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #907def;
+    border-radius: 20px;
+    
+} 
+
+.temperature{
+    font-size: 5rem;
+    text-align: center;
+    display: flex;
+    font-weight: 300;
+    top: 10px;
+    left: 190px;
+    position: absolute;
+    
+
+   
+}
+
+.weatherIcon{
+ background-position: 20% !important;
+ background-repeat:  no-repeat !important;
+ background-size: contain !important ;
+ display: block;
+ height: 25%;
+ width: 25%;
+ margin: 2rem auto;
+ 
+}
+
+
+
+/* .weatherIcon{
+    position: absolute;
+    font-size:xx-large;
+    top: 850px;
+    left: 310px; 
+} */
+
+.city{
+    position: absolute;
+    top: 360px;
+    left: 280px;
+}
+
+
+.Date{
+    position: absolute;
+    left: 50px;
+    
+}
+
+
+.DValue{
+     font-size: 5rem;
+    font-weight: 300;
+    top: 20px;
+    left: 200px;
+    position: absolute;
+}
+
+
+.TDI{
+    position: absolute;
+    top: 80px;
+    left: 230px;
+}
+
+
+.SValue{
+    position: absolute;
+    top: 80px;
+    left: 250px;
+}
+
+
+
+.Humdit div{
+    position: absolute;
+    top: 380px;
+    left:750PX;
+    height: 150px;
+    width: 200px; 
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #755CF1;
+    border-radius: 20px;
+    
+}
+
+
+.Wind div{
+    position: absolute;
+    top: 380px;
+    left:1000PX;
+    height: 150px;
+    width: 200px;     
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #907def;
+    border-radius: 20px;
+    
+}
+
+
+.Countrys div{
+    position: absolute;
+    top: 380px;
+    left:1250PX;
+    height: 150px;
+    width: 200px;     
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:#755CF1;
+    border-radius: 20px;
+    
+}
+
+.clouds div{
+    position: absolute;
+    top: 560px;
+    left:750PX;
+    height: 140px;
+    width: 200px;   
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #907def;
+    border-radius: 20px;
+    
+}
+
+
+.uv div{
+    position: absolute;
+    top: 560px;
+    left:1000PX;
+    height: 140px;
+    width: 200px;  
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:#755CF1;
+    border-radius: 20px;
+    
+}
+
+.pressur div{
+    position: absolute;
+    top: 560px;
+    left:1250PX;
+    height: 140px;
+    width: 200px;     
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #907def;
+    border-radius: 20px;
+    
+}
+
+.TimeBar div{
+    position: absolute;
+    top: 125px;
+    left:750PX;
+    height: 50px;
+    width: 700px;     
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #c0b5fa;
+    border-radius: 20px;
+    
+}
+
+.Summary div{
+    position: absolute;
+    top: 210px;
+    left:750PX;
+    height: 150px;
+    width: 700px;     
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    
+} 
+
+
+ .next div{
+    position: absolute;
+    top: 770px;
+    left:100PX;
+    height: 600px;
+    width: 600px;     
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f9f8fd;
+    border-radius: 20px;
+   
+    
+}
+
+.previous div{
+    position: absolute;
+    top: 770px;
+    left:800PX;
+    height: 600px;
+    width: 600px;       
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f1f0f8;
+    border-radius: 20px;
+    
+} 
+
+
+.title_previous{
+    position: absolute;
+    top: 30px;
+    left: 190px;
+}
+ 
+
+
+.title_next{
+    position: absolute;
+    top: 30px;
+    left: 220px;
+}
+
+
+
+#PheaderMon{
+    position: absolute;
+    top: 150px;
+    left: 60px;
+    font-weight: 1000;
+    font-size: x-large;
+    color: #000000;
+}
+#PheaderTue{
+    position: absolute;
+    top: 240px;
+    left: 60px;
+    font-weight: 600;
+    font-size: x-large;
+    color: #000000;
+}
+#PheaderWed{
+    position: absolute;
+    top: 330px;
+    font-weight: 600;
+    font-size: x-large;
+    color: #000000;
+    left: 60px;
+}
+#PheaderThu{
+    position: absolute;
+    top: 420px;
+    left: 60px;
+    font-weight: 600;
+    font-size: x-large;
+    color: #000000;
+}
+#PheaderFri{
+    position: absolute;
+    top: 510px;
+    left: 60px;
+    font-weight: 600;
+    font-size: x-large;
+    color: #000000;
+}
+#PMondayImg{
+    position: absolute;
+    font-size:xx-large;
+    top: 150px;
+    left: 310px; 
+}
+#PTuesdayImg{
+    position: absolute;
+    font-size:xx-large;
+    top: 240px;
+    left: 310px;  
+}
+#PWednesdayImg{
+    position: absolute;
+    font-size:xx-large;
+    top: 330px;
+    left: 310px;  
+}
+#PThursdayImg{
+    position: absolute;
+    font-size:xx-large;
+    top: 420px;
+    left: 310px; 
+}
+#PFridayImg{
+    position: absolute;
+    font-size:xx-large;
+    top: 510px;
+    left: 310px; 
+}
+#PtempretureMonTxt{
+    position: absolute;
+    font-size:x-large;
+    top: 150px;
+    font-weight: 1000;
+    color: #000000;
+    left: 490px; 
+}
+#PtempretureTueTxt{
+    position: absolute;
+    font-size:x-large;
+    top: 240px;
+    font-weight: 1000;
+    color: #000000;
+    left: 490px; 
+}
+#PtempretureWedTxt{
+    position: absolute;
+    font-size:x-large;
+    top: 330px;
+    font-weight: 500;
+    color: #000000;
+    left: 490px; 
+}
+#PtempretureThuTxt{
+    position: absolute;
+    font-size:x-large;
+    top: 420px;
+    font-weight: 600;
+    color: #000000;
+    left: 490px; 
+}
+#PtempretureFriTxt{
+    position: absolute;
+    font-size:x-large;
+    top: 510px;
+    font-weight: 600;
+    color: #000000;
+    left: 490px; 
+}
+ 
+
+#NheaderMon{
+    position: absolute;
+    top: 150px;
+    left: 60px;
+    font-weight: 1000;
+    font-size: x-large;
+    color: #000000;
+}
+#NheaderTue{
+    position: absolute;
+    top: 240px;
+    left: 60px;
+    font-weight: 600;
+    font-size: x-large;
+    color: #000000;
+}
+#NheaderWed{
+    position: absolute;
+    top: 330px;
+    font-weight: 600;
+    font-size: x-large;
+    color: #000000;
+    left: 60px;
+}
+#NheaderThu{
+    position: absolute;
+    top: 420px;
+    left: 60px;
+    font-weight: 600;
+    font-size: x-large;
+    color: #000000;
+}
+#NheaderFri{
+    position: absolute;
+    top: 510px;
+    left: 60px;
+    font-weight: 600;
+    font-size: x-large;
+    color: #000000;
+}
+#NMondayImg{
+    position: absolute;
+    font-size:xx-large;
+    top: 150px;
+    left: 310px; 
+}
+#NTuesdayImg{
+    position: absolute;
+    font-size:xx-large;
+    top: 240px;
+    left: 310px;  
+}
+#NWednesdayImg{
+    position: absolute;
+    font-size:xx-large;
+    top: 330px;
+    left: 310px;  
+}
+#NThursdayImg{
+    position: absolute;
+    font-size:x-large;
+    top: 420px;
+    left: 310px; 
+}
+#NFridayImg{
+    position: absolute;
+    font-size:xx-large;
+    top: 510px;
+    left: 310px; 
+}
+#NtempretureMonTxt{
+    position: absolute;
+    font-size:x-large;
+    top: 150px;
+    font-weight: 1000;
+    color: #000000;
+    left: 490px; 
+}
+#NtempretureTueTxt{
+    position: absolute;
+    font-size:x-large;
+    top: 240px;
+    font-weight: 1000;
+    color: #000000;
+    left: 490px; 
+}
+#NtempretureWedTxt{
+    position: absolute;
+    font-size:x-large;
+    top: 330px;
+    font-weight: 500;
+    color: #000000;
+    left: 490px; 
+}
+#NtempretureThuTxt{
+    position: absolute;
+    font-size:x-large;
+    top: 420px;
+    font-weight: 600;
+    color: #000000;
+    left: 490px; 
+}
+#NtempretureFriTxt{
+    position: absolute;
+    font-size:x-large;
+    top: 510px;
+    font-weight: 600;
+    color: #000000;
+    left: 490px; 
+}
+ 

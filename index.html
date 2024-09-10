@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+        <div class="container">
+            <div class="weather-input">
+               <div class="input-group">
+                <input type="text"  id="userLocation" placeholder="Search " >
+
+                <i class="fa fa-search" onclick="findUserLocation()"></i>
+
+
+    <div class="container">
+            <div class="main">
+              <div class="humidity">
+
+                 <h2 class="temperature">25.7 °C </h2> 
+                 <!-- <img src="img/10.jpg" alt="" id="weatherIcon"> -->
+                 <h2 class="weatherIcon"></h2>
+                <h2 class="city">Kandy</h2>
+            
+            </div>
+        </div>
+    </div>
+    <div class=" container">
+       
+
+        <div class="TITLE">
+            <h2  >WEATHER</h2>
+          
+        </div>
+    </div>
+
+
+    <div class=" container">
+       
+        <div class="TITLE2">
+            <h2 >WEB</h2>
+          
+        </div>
+    </div>
+
+
+
+    <div class=" container"> 
+        <div class="TimeBar">        
+            <div class="Timebar">
+                
+                <i class="fa-solid fa-volcon"></i>
+                <h2 class="Date">DATE / TIME :</h2>
+            
+                <h2 id="DValue">2024-09-10 09:00</h2>
+               
+                
+            </div> 
+        </div>
+    </div>
+    </div>
+    
+
+
+    <div class=" container"> 
+        <div class="Summary">
+                     
+            <div class="Summary">
+                <h2 class="Summary">SUMMARY</h2>             
+                <h2 class="description">Sunny Day</h2>
+                <i class="fa-solid fa-volcon"></i>
+                <h1 id="SValue"></h1>
+
+            </div>    
+        </div>
+    </div>
+    </div>
+    
+
+  
+    <div class=" container">
+        <div class="weather-input">         
+        </div>
+
+        <div class="weather-output">
+            <h2 class="heading"></h2>
+          
+            <div class="Humdit">
+                <div class="humdity">
+                    humdity
+                    <i class="fa-solid fa-water"></i>
+                    <h1 id="HValue">65 %</h1>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class=" container"> 
+            <div class="Wind">
+                
+            <div class="wind-speed">
+                Wind Speed
+                <i class="fa-solid fa-wind"></i>
+                <h1 id="WValue">10 m/s</h1>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class=" container"> 
+        <div class="Countrys">
+            
+            <div class="wind-speed">
+                Country
+                <i class="fa fa-university"></i>
+                <h1 id="COUNTRYValue">SRI LANKA</h1>
+
+        </div>
+    </div>
+</div>
+
+
+         <div class=" container"> 
+            <div class="clouds">
+                
+                <div class="clouds">
+                    Clouds
+                    <i class="fa-solid fa-cloud"></i>
+                    <h1 id="CValue">25 %</h1>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class=" container"> 
+        <div class="uv">
+            
+           
+            <div class="uv-index">
+                UV Index
+                <i class="fa-solid fa-bacon"></i>
+                <h1 id="UVValue">6</h1>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class=" container"> 
+    <div class="pressur">
+        
+       
+        <div class="pressure">
+            Pressure
+            <i class="fa fa-area-chart"></i>
+            <h1 id="PValue">20 pha</h1>
+        </div>
+
+    </div>
+</div>
+</div>
+
+
+
+<div class="container">
+
+    <div class="next">
+      <div class="nex">
+            <h1 class="title_previous">NEXT DAY</h1>
+       
+
+        <p id="NheaderMon">Monday</p>
+        <p id="NheaderTue">Tuesday</p>
+        <p id="NheaderWed">Wednesday</p>
+        <p id="NheaderThu">Thursday</p>
+        <p id="NheaderFri">Friday</p>
+        <!-- <i class='bx bx-sun' id="MondayIcon"></i> -->
+        <img src="img/10.jpg" alt="" id="NMondayImg">
+        <img src="img/10.jpg" alt="" id="NTuesdayImg">
+        <img src="img/10.jpg" alt="" id="NWednesdayImg">
+        <img src="img/10.jpg" alt="" id="NThursdayImg">
+        <img src="img/10.jpg" alt="" id="NFridayImg">
+        <p id="NtempretureMonTxt"> 25°</p>
+        <p id="NtempretureTueTxt"> 27°</p>
+        <p id="NtempretureWedTxt"> 30°</p>
+        <p id="NtempretureThuTxt"> 24°</p>
+        <p id="NtempretureFriTxt"> 23°</p>
+ 
+    </div>
+</div>
+</div>
+
+        
+<div class="container">
+ <div class="previous">
+
+      <div class="previo">
+
+        <h1 class="title_next">PREVIOUS DAY</h1><br>
+
+    
+        
+        <p id="PheaderMon">Monday</p>
+        <p id="PheaderTue">Tuesday</p>
+        <p id="PheaderWed">Wednesday</p>
+        <p id="PheaderThu">Thursday</p>
+        <p id="PheaderFri">Friday</p>
+        <!-- <i class='bx bx-sun' id="MondayIcon"></i> -->
+        <img src="img/10.jpg" alt="" id="PMondayImg">
+        <img src="img/10.jpg" alt="" id="PTuesdayImg">
+        <img src="img/10.jpg" alt="" id="PWednesdayImg">
+        <img src="img/10.jpg" alt="" id="PThursdayImg">
+        <img src="img/10.jpg" alt="" id="PFridayImg">
+        <p id="PtempretureMonTxt"> 25°</p>
+        <p id="PtempretureTueTxt"> 27°</p>
+        <p id="PtempretureWedTxt"> 30°</p>
+        <p id="PtempretureThuTxt"> 24°</p>
+        <p id="PtempretureFriTxt"> 23°</p>
+
+    </div>
+</div>
+</div>
+
+
+
+</div>              
+</div>
+</div>
+
+
+
+<script src="script.js"></script>   
+</body>
+</html>
